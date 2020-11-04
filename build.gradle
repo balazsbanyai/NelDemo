@@ -18,6 +18,10 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            name "realeyes"
+            url "https://maven.realeyesit.com"
+        }
     }
 }
 
